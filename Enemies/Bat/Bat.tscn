@@ -11,9 +11,15 @@ height = 134.49773
 collision_layer = 3
 collision_mask = 3
 script = ExtResource("1_hptex")
+<<<<<<< HEAD
 amplitudeRange = Vector2(500, 3000)
 Health = 15.0
 velocity = Vector2(-750, 20)
+=======
+amplitudeRange = Vector2(400, 750)
+Health = 14.0
+velocity = Vector2(-700, 20)
+>>>>>>> 17bee06 (+ documentation + bat: amplitude and health)
 metadata/_custom_type_script = "uid://jxvguwybt4v8"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1312048075]
