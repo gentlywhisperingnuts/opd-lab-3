@@ -13,7 +13,7 @@ public partial class Player : CharacterBody2D
 	private float BulletSpeed = 1000f;
 	private PackedScene BulletScene = GD.Load<PackedScene>("res://Bullet/Bullet.tscn");
 	[Export]
-	public float BulletDamage { get; set; } = 10f;
+	public float BulletDamage { get; set; } = 7f;
 
 	public override void _Ready()
 	{
